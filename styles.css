@@ -1,0 +1,192 @@
+--Login
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  background-color: #fff7f3;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(43, 248, 2, 0.1);
+}
+
+.login-form {
+  flex: 1;
+  padding: 60px 40px;
+}
+
+.login-form h2 {
+  margin-bottom: 10px;
+}
+
+.login-form p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.remember-forgot input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.remember-forgot a {
+  color: #e06a6a;
+  text-decoration: none;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signup {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #e06a6a;
+  text-decoration: none;
+}
+
+.or-divider {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-login button {
+  padding: 10px;
+  width: 150px;
+  border: 1px solid #05ebd7;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.image-side {
+  flex: 1;
+  background: url('image/higanbana.jpg') center/cover no-repeat;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+--Crear cuenta
+
+
+/* Estilos para el formulario de Sign up */
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1;
+}
+
+.login-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+--Codigo de verificacion
+html, body {
+  height: 100%;
+  margin: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon input {
+  width: 100%;
+  padding-right: 40px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 20%;
+  right: 10px;
+  transform: translateY(-10%);
+  cursor: pointer;
+}
+
+.resend-text {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
